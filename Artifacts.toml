@@ -1,22 +1,22 @@
 [[Libxc_GPU]]
 arch = "x86_64"
 cuda = "10.2"
-git-tree-sha1 = "208c63627013e5d7607ec1ea72fc3581a3a5e92a"
+git-tree-sha1 = "1f960bfe22dec3dcd191b5b8a8c18f72ad67452a"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Libxc_GPU.download]]
-    sha256 = "305aa6810da9ff19bb125e9ad95c9e3d7c6aa259fe04477dc1410baf973298d8"
-    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v6.0.0+0/Libxc_GPU.v6.0.0.x86_64-linux-gnu-cuda+10.2.tar.gz"
+    sha256 = "b3a4030bf1c8d7bca5a0352c662f3cd6a178f980c024f00e96b295b3af7a9525"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v6.1.0+0/Libxc_GPU.v6.1.0.x86_64-linux-gnu-cuda+10.2.tar.gz"
 [[Libxc_GPU]]
 arch = "x86_64"
 cuda = "11.0"
-git-tree-sha1 = "810157b6fdf77e0f4c4f3fe53f46a06aa5ffef2c"
+git-tree-sha1 = "fc65869dc4ee145bb43418a90323cddd5d69ed1e"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Libxc_GPU.download]]
-    sha256 = "07202ef53006ce35d7a1b179d61281cf437b572f3689d2f9764669f9a57d6910"
-    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v6.0.0+0/Libxc_GPU.v6.0.0.x86_64-linux-gnu-cuda+11.0.tar.gz"
+    sha256 = "22a46da2214ef5748bee64c6e58cd04cb231b6acd675440f7ec894ded777cbc3"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v6.1.0+0/Libxc_GPU.v6.1.0.x86_64-linux-gnu-cuda+11.0.tar.gz"
