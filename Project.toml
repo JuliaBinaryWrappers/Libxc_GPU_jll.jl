@@ -1,6 +1,6 @@
 name = "Libxc_GPU_jll"
 uuid = "25af9330-9b41-55d4-a324-1a83c0a0a1ac"
-version = "6.1.0+1"
+version = "6.1.0+2"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
