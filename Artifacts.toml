@@ -1,11 +1,303 @@
 [[Libxc_GPU]]
 arch = "x86_64"
-cuda = "11.0"
-git-tree-sha1 = "be91fc1e270f60fee12ca6cbcbd56d9209294dfa"
+cuda = "11.8"
+git-tree-sha1 = "288bcb0d9dd9c02782685c6c56d96da7569a300f"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Libxc_GPU.download]]
-    sha256 = "ca23588d7f319440088fd185471c69766e4e3a1e51a4124cb38304a3e070dbd4"
-    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v6.1.0+2/Libxc_GPU.v6.1.0.x86_64-linux-gnu-cuda+11.0.tar.gz"
+    sha256 = "fa512d4e38344d0be83288a8012629ab9d5703d824b77e747ed32341f5fdb9de"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.x86_64-linux-gnu-cuda+11.8.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "11.8"
+cuda_platform = "jetson"
+git-tree-sha1 = "ddee41cd55643a0831b79cfd3e1ded25715c6d03"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "7c5c0121e8a7e69a48fd795abe453e7ca30e60cfe0bbf70eca5280b8c2b3654a"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+11.8.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "11.8"
+cuda_platform = "sbsa"
+git-tree-sha1 = "39230f378a4ba969569b2db0e882cc885814fdf7"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "a4fc0589cbfcfd173bf167d1443821b6484ec63171cfe8ecbf29dc86e481cef5"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+11.8.tar.gz"
+[[Libxc_GPU]]
+arch = "x86_64"
+cuda = "12.0"
+git-tree-sha1 = "5178dad51aceaa90e2323555aded6248a6664c01"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "f3183d0d20781d425a090889c9c50e479b8995a4bb1e1459b4de9d9527af284c"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.x86_64-linux-gnu-cuda+12.0.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "jetson"
+git-tree-sha1 = "590ae80b8158372f15fd5db9e900bb1e7df32fe9"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "cbc968513713f4ec4dea4599e193525b1967d1b89008682dc5386566057124cf"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "sbsa"
+git-tree-sha1 = "1557d3ca46867a6e45f1a37b301fea7e967092c8"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "1e4b1b33cc7928491099c29af68c3526fd4890d65ccf5164f60abedd5e9fae23"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz"
+[[Libxc_GPU]]
+arch = "x86_64"
+cuda = "12.1"
+git-tree-sha1 = "a5ebf19ef53c76f2baf32af301327d35d3e9d952"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "4a9c7405c8e9d579c8ee677abc087d57fd08b38648b9622b017d5c31921a4898"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.x86_64-linux-gnu-cuda+12.1.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.1"
+cuda_platform = "jetson"
+git-tree-sha1 = "717af1a04dd9fd8e03525b97a343104884849def"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "eb0e4ba34fa90c626fa1cc4f47775fa4cadfac8eebbbfb3f4b8785fafe5dbf21"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.1.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.1"
+cuda_platform = "sbsa"
+git-tree-sha1 = "d2b1f1116006e4f8f3e152f088f1d2a06676970a"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "e6e36d66f491542522818a0b7decc3610fab28db276602678e89a1d74ad85261"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.1.tar.gz"
+[[Libxc_GPU]]
+arch = "x86_64"
+cuda = "12.2"
+git-tree-sha1 = "a95cfba51f1726e9328c022d7c80c77e6fbd1992"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "1b4d12698ee361ae9b7757949ee2ca936bc88447254dd57174a95a22c17358b4"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.x86_64-linux-gnu-cuda+12.2.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.2"
+cuda_platform = "jetson"
+git-tree-sha1 = "dc47f08f730a1dc153d18e5db41ee8a908e8a428"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "60c6a77481ec8e7b1bc865dab41f0893d3ce1cf50f9fa925d87595d2273df46d"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.2.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.2"
+cuda_platform = "sbsa"
+git-tree-sha1 = "e639f7dd6d7d802092af5e2cbed418712491e9a9"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "ea085990c7c7378350179187f42ae438c2206499f43240788797a086ef4c789d"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.2.tar.gz"
+[[Libxc_GPU]]
+arch = "x86_64"
+cuda = "12.3"
+git-tree-sha1 = "3acad60be8ef0bfd2b8cc7c31496a0cf3edee0ee"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "f480f9f639ae50bbaac45d9814073b7fe0413a89bdc179524f394b13ab818d11"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.x86_64-linux-gnu-cuda+12.3.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.3"
+cuda_platform = "sbsa"
+git-tree-sha1 = "08e28689fd1407137bca59c27e82c435ed3de91c"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "5bfb12c028e91e8bc47b9311a5de9c94110b5528a0c4d3ba91d072ed384c9ee4"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.3.tar.gz"
+[[Libxc_GPU]]
+arch = "x86_64"
+cuda = "12.4"
+git-tree-sha1 = "acc322b9410f1b766ef5e2581ffc2b920c63f29f"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "07535078e4baf94c5fe0972de5af8ebac91b605ae3dca7bb9a5c374493b470b9"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.x86_64-linux-gnu-cuda+12.4.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.4"
+cuda_platform = "jetson"
+git-tree-sha1 = "6414db502649818c11ba68c30fc442d12cbf0326"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "8811b10cc4f4730aaa528100ebbc21abc2241bea77023a9be68e5092ea47744b"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.4.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.4"
+cuda_platform = "sbsa"
+git-tree-sha1 = "f21776ea91ea5c72d9669ea322f1e0377a887266"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "a758cdf7690db22753f655b87eb83212277bb7a83d922d94b40871f0ed899d40"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.4.tar.gz"
+[[Libxc_GPU]]
+arch = "x86_64"
+cuda = "12.5"
+git-tree-sha1 = "af8bf10a79c948b0b3256c52fdc96b61055f1360"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "d853f42f01139e9715800396a0b8b8209b1cd39d349bdc0456ff50ca4cf059b7"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.x86_64-linux-gnu-cuda+12.5.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.5"
+cuda_platform = "jetson"
+git-tree-sha1 = "937c8f3ced748669934adfe2ba4eee2d1ecdc786"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "bac311670a02aff1cf48bd1fedafcc531d4a142fa295959b2792778048d53bba"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.5.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.5"
+cuda_platform = "sbsa"
+git-tree-sha1 = "8d72f93a6ae41722a01fa3724e2efa30d062e46a"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "00d07bc3f773edb921d9aa8569be336f0172edd5ea499427abd55c36ffeca5cd"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.5.tar.gz"
+[[Libxc_GPU]]
+arch = "x86_64"
+cuda = "12.6"
+git-tree-sha1 = "2dfe4057fab90d4ab6436ed45d2f17352d0375bd"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "924bc50a558447cef884df3003e86de7642ecc5855614c6b8c30b2c78b0ad7e4"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.x86_64-linux-gnu-cuda+12.6.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.6"
+cuda_platform = "jetson"
+git-tree-sha1 = "ed15332984d12248a262eb361fb36f68c1efcae5"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "053148a0d4469e15b7c5a80bc07554365d5bdc88ecf8be2271b9f92cbd66121d"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.6.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.6"
+cuda_platform = "sbsa"
+git-tree-sha1 = "73567036f216f9d43ded39663b8fe2bc6fed35f0"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "bed291b69ba291682d48d31bf3ae2bc4f5e945a7543aa8f6569199efb59ad430"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.6.tar.gz"
+[[Libxc_GPU]]
+arch = "x86_64"
+cuda = "12.8"
+git-tree-sha1 = "9f22ed4d5be299087d62574b0a2349e9303a863f"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "fc7a396a3fb13f954c13abc13430d392ccb3b7a29e434d7f8d23f360faa9f47c"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.x86_64-linux-gnu-cuda+12.8.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "jetson"
+git-tree-sha1 = "d3e710a18d1ff60f25201d07bb38655196cecb71"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "c74314301de9f4e5b2dfa8032b42b3bb125f7e4ec41304f93a0df6b83bfea17f"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.8.tar.gz"
+[[Libxc_GPU]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "sbsa"
+git-tree-sha1 = "b538361a18874c4011944808fdb64fc29c4410ad"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Libxc_GPU.download]]
+    sha256 = "daab4fe7ca76e014f97e60ffa89d137fa41b67e02bf56c87c10ac17982a75f8b"
+    url = "https://github.com/JuliaBinaryWrappers/Libxc_GPU_jll.jl/releases/download/Libxc_GPU-v7.0.0+0/Libxc_GPU.v7.0.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.8.tar.gz"
